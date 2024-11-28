@@ -1,0 +1,59 @@
+@use "all";
+@use "ali";
+// @import url(_all.scss); pure Css
+.main-bg{
+    background: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-position:top right;
+    // background-size:100% ;
+}
+header{
+    & ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    & a{
+        padding: 1rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+.human-bg{
+    background: url("../images/human-bg.jpg");
+    background-size: cover;
+    min-height: 40rem;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a{
+        color: white;
+    }
+
+}
+.social-icon{
+    & img{
+        width: 25px;
+    }
+}
+#power{
+    .text-black{
+        color: black;
+    }
+}
+.divman{
+    background: url(../images/man.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+    background-size: cover;
+}
+.b2{
+    background: url(../images/back2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
